@@ -17,6 +17,14 @@
                                 <field name="frequency"/>
                             </group>
                         </group>
+                        <notebook>
+                            <page string="Vehicles">
+                                <field name="vehicles"/>
+                            </page>
+                            <page string="Trains">
+                                <field name="train_ids"/>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>

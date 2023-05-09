@@ -48,7 +48,14 @@
                                 </field>
                             </page>
                             <page string="Circuits">
-                                <field name="circuit_ids"/>
+                                <field name="circuit_ids">
+                                    <tree>
+                                        <field name="name"/>
+                                        <field name="vehicles"/>
+                                        <field name="distance"/>
+                                        <field name="frequency"/>
+                                    </tree>
+                                </field>
                             </page>
                         </notebook>
                     </sheet>

@@ -10,3 +10,5 @@ class Train(models.Model):
     frequency = fields.Integer("Frequency")
     start_station = fields.Many2one("train_management.station")
     end_station = fields.Many2one("train_management.station")
+    vehicles = fields.Many2many("train_management.vehicle")
+    circuit = fields.Many2one("train_management.circuit", required=True, readonly=True)

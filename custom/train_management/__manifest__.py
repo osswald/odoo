@@ -18,6 +18,7 @@
         'views/railway_company_views.xml',
         'views/station_views.xml',
         'views/vehicle_views.xml',
+        'views/train_views.xml',
         'views/train_management_menu_views.xml',
     ],
 }
