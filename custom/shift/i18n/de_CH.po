@@ -1,0 +1,198 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* shift
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-10 06:05+0000\n"
+"PO-Revision-Date: 2023-05-10 08:15+0200\n"
+"Last-Translator: Christoph Osswald\n"
+"Language-Team: \n"
+"Language: de_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__approximate_end_time
+msgid "Approximate End Time"
+msgstr "Ungefähre Endzeit"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__approximate_start_time
+msgid "Approximate Start Time"
+msgstr "Ungefähre Startzeit"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__approximate_times
+msgid "Approximate Times"
+msgstr "Ungefähre Zeiten"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__category
+msgid "Category"
+msgstr "Kategorie"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__comment
+msgid "Comment"
+msgstr "Kommentar"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__create_uid
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type__create_uid
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__create_date
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type__create_date
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__description
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__display_name
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type__display_name
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__end_station
+msgid "End Station"
+msgstr "Ziel Bahnhof"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__end_time
+msgid "End Time"
+msgstr "Schlusszeit"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__id
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type__id
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__name
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type__name
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__label
+msgid "Label"
+msgstr "Bezeichnung"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position____last_update
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type____last_update
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__write_uid
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type__write_uid
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__write_date
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type__write_date
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__sequence
+msgid "Sequence"
+msgstr "Reihenfolge"
+
+#. module: shift
+#: model:ir.ui.menu,name:shift.settings_menu
+msgid "Settings"
+msgstr "Einstellungen"
+
+#. module: shift
+#: model:ir.ui.menu,name:shift.shift_menu_root
+msgid "Shift"
+msgstr "Tour"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__shift_template
+msgid "Shift Template"
+msgstr "Touren-Vorlage"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__name
+msgid "Shift number"
+msgstr "Touren-Nr."
+
+#. module: shift
+#: model:ir.actions.act_window,name:shift.shift_position_action
+#: model:ir.model,name:shift.model_shift_shift_position
+#: model_terms:ir.ui.view,arch_db:shift.shift_position_view_tree
+msgid "Shift position"
+msgstr "Tour Position"
+
+#. module: shift
+#: model:ir.actions.act_window,name:shift.shift_position_type_action
+#: model:ir.model,name:shift.model_shift_shift_position_type
+#: model:ir.ui.menu,name:shift.shift_position_type_menu_action
+#: model_terms:ir.ui.view,arch_db:shift.shift_position_type_view_tree
+msgid "Shift position type"
+msgstr "Tour Position Typ"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__shift_position_ids
+#: model_terms:ir.ui.view,arch_db:shift.shift_template_view_form
+msgid "Shift positions"
+msgstr "Tour Position"
+
+#. module: shift
+#: model:ir.actions.act_window,name:shift.shift_template_action
+#: model:ir.model,name:shift.model_shift_shift_template
+#: model:ir.ui.menu,name:shift.shift_template_menu_action
+#: model_terms:ir.ui.view,arch_db:shift.shift_template_view_tree
+msgid "Shift template"
+msgstr "Touren-Vorlage"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__start_station
+msgid "Start Station"
+msgstr "Start Bahnhof"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__start_time
+msgid "Start Time"
+msgstr "Start Zeit"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position__type
+msgid "Type"
+msgstr "Typ"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__valid_from
+msgid "Valid From"
+msgstr "Gültig von"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_template__valid_until
+msgid "Valid Until"
+msgstr "Gültig bis"
+
+#. module: shift
+#: model:ir.model.fields,field_description:shift.field_shift_shift_position_type__work_time
+msgid "distance"
+msgstr "Distanz"

@@ -3,6 +3,7 @@ from odoo import models, fields
 
 class KeyGroup(models.Model):
     _name = "key_management.group"
+    _description = "Key group"
 
     short_name = fields.Char("Short Name", required=True)
     name = fields.Char("Label", required=True)

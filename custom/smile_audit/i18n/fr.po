@@ -7,18 +7,20 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-27 08:23+0000\n"
-"PO-Revision-Date: 2020-10-27 08:23+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2023-05-10 08:04+0200\n"
+"Last-Translator: Christoph Osswald\n"
 "Language-Team: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. module: smile_audit
 #: model_terms:ir.ui.view,arch_db:smile_audit.view_audit_log_form
 msgid "<span class=\"o_stat_text\">History<br/>revision</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Histoire<br/>révision</span>"
 
 #. module: smile_audit
 #: model:ir.model.fields,field_description:smile_audit.field_audit_rule__active
@@ -71,7 +73,7 @@ msgstr "Base"
 #. module: smile_audit
 #: model_terms:ir.ui.view,arch_db:smile_audit.view_audit_log_form
 msgid "Changes"
-msgstr ""
+msgstr "Changements"
 
 #. module: smile_audit
 #: model:ir.model.fields,field_description:smile_audit.field_audit_log__create_uid
@@ -98,7 +100,7 @@ msgstr "Données"
 #: model:ir.model.fields,field_description:smile_audit.field_audit_log__create_date
 #: model_terms:ir.ui.view,arch_db:smile_audit.view_audit_log_search
 msgid "Date"
-msgstr "Date "
+msgstr "Date"
 
 #. module: smile_audit
 #: model_terms:ir.ui.view,arch_db:smile_audit.view_audit_log_search
@@ -146,7 +148,7 @@ msgstr "Données HTML"
 #: model:ir.model.fields,field_description:smile_audit.field_audit_log__id
 #: model:ir.model.fields,field_description:smile_audit.field_audit_rule__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: smile_audit
 #: model:ir.model.fields,field_description:smile_audit.field_audit_log____last_update
@@ -223,7 +225,7 @@ msgstr "Ancienne valeur"
 #. module: smile_audit
 #: model:ir.model.fields,field_description:smile_audit.field_audit_log__res_id
 msgid "Resource Id"
-msgstr ""
+msgstr "ID Ressource"
 
 #. module: smile_audit
 #: model:ir.model.fields,field_description:smile_audit.field_audit_log__name
@@ -239,7 +241,7 @@ msgstr "Règles"
 #. module: smile_audit
 #: model:ir.model.fields,help:smile_audit.field_audit_rule__model_id
 msgid "Select model for which you want to generate log."
-msgstr "Sélectionner les modèles que vous souhaitez suivre"
+msgstr "Sélectionner les modèles que vous souhaitez suivre."
 
 #. module: smile_audit
 #: model:ir.model.fields,field_description:smile_audit.field_audit_rule__state
@@ -267,7 +269,7 @@ msgstr "Utilisateur"
 #. module: smile_audit
 #: model:ir.model.fields,field_description:smile_audit.field_audit_rule__group_id
 msgid "User Group"
-msgstr ""
+msgstr "Groupe d'utilisateurs"
 
 #. module: smile_audit
 #: code:addons/smile_audit/models/audit_rule.py:0

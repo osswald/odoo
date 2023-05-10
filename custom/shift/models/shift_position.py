@@ -13,5 +13,5 @@ class ShiftPosition(models.Model):
     start_station = fields.Many2one("train_management.station")
     end_station = fields.Many2one("train_management.station")
     comment = fields.Text()
-    shift_template = fields.Many2one("shift_template", required=True, readonly=True)
+    shift_template = fields.Many2one("shift.shift_template", required=True, readonly=True)
     sequence = fields.Integer(string='Sequence', default=1)
