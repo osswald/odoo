@@ -12,6 +12,8 @@
     'license': "LGPL-3",
     'data': [
         'security/ir.model.access.csv',
+        'data/train_management.station.csv',
+        'data/train_management.railway_company.csv',
         'views/circuit_views.xml',
         'views/day_planning_views.xml',
         'views/day_planning_text_views.xml',

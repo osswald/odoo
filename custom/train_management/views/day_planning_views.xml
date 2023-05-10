@@ -102,6 +102,7 @@
         <record id="day_planning_action" model="ir.actions.act_window">
             <field name="name">Day planning</field>
             <field name="res_model">train_management.day_planning</field>
+            <field name="context">{"search_default_future_day_plannings":1}</field>
             <field name="view_mode">tree,form,calendar</field>
         </record>
 
@@ -111,6 +112,11 @@
             <field name="arch" type="xml">
                 <search>
                     <field name="name"/>
+                    <filter
+                            string="Future day plannings"
+                            name="future_day_plannings"
+                            domain="[('date','>=', ((datetime.datetime.now()).strftime('%Y-%m-%d')))]"
+                    />
                 </search>
             </field>
         </record>
