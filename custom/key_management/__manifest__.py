@@ -3,6 +3,7 @@
 
 {
     'name': 'Key Management',
+    'author': 'Christoph Osswald',
     'depends': [
         'base',
     ],

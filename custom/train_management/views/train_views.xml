@@ -15,13 +15,43 @@
                                 <field name="name"/>
                                 <field name="description"/>
                                 <field name="frequency"/>
+                                <field name="distance"/>
                                 <field name="start_station"/>
                                 <field name="end_station"/>
                             </group>
                         </group>
                         <notebook>
                             <page string="Vehicles">
-                                <field name="vehicles"/>
+                                <field name="train_vehicle">
+                                    <tree editable="bottom">
+                                        <field name="sequence" widget="handle"/>
+                                        <field name="vehicle"/>
+                                        <field name="comment"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Timetable">
+                                <field name="timetable">
+                                    <tree editable="bottom">
+                                        <field name="sequence" widget="handle"/>
+                                        <field name="station"/>
+                                        <field name="arrival_time"/>
+                                        <field name="departure_time"/>
+                                        <field name="stop_code"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Reservations">
+                                <field name="reservation_ids">
+                                    <tree>
+                                        <field name="name"/>
+                                        <field name="amount"/>
+                                        <field name="type"/>
+                                        <field name="phone_number"/>
+                                        <field name="email"/>
+                                        <field name="comment" widget="text" options="{'maxlength': 50}"/>
+                                    </tree>
+                                </field>
                             </page>
                         </notebook>
                     </sheet>
@@ -37,6 +67,9 @@
                     <field name="name"/>
                     <field name="start_station"/>
                     <field name="end_station"/>
+                    <field name="train_composition"/>
+                    <field name="distance"/>
+                    <field name="frequency"/>
                 </tree>
             </field>
         </record>

@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, fields, api
 
 
 class Reservation(models.Model):
@@ -21,4 +21,11 @@ class Reservation(models.Model):
         required=True,
     )
     comment = fields.Text("Comment")
+    train = fields.Many2one("train_management.train")
+    day_planning = fields.Many2one("train_management.day_planning", compute="_compute_day_planning", store=True)
+
+    @api.depends('train')
+    def _compute_day_planning(self):
+        for reservation in self:
+            reservation.day_planning = reservation.train.circuit.day_planning
     

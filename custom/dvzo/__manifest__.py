@@ -17,7 +17,6 @@
         'uniform',
         'web_window_title',
         'partner_firstname',
-        'smile_audit',
     ],
     'installable': True,
     'application': True,

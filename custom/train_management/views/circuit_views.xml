@@ -19,7 +19,13 @@
                         </group>
                         <notebook>
                             <page string="Vehicles">
-                                <field name="vehicles"/>
+                                <field name="circuit_vehicle">
+                                    <tree editable="bottom">
+                                        <field name="sequence" widget="handle"/>
+                                        <field name="vehicle"/>
+                                        <field name="comment"/>
+                                    </tree>
+                                </field>
                             </page>
                             <page string="Trains">
                                 <field name="train_ids"/>

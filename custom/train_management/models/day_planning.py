@@ -9,6 +9,7 @@ class DayPlanning(models.Model):
     name = fields.Char("Label", required=True)
     date = fields.Date("Date", required=True)
     railway_company = fields.Many2one("train_management.railway_company")
+    responsible_phone = fields.Many2one("res.partner", string="Resonsible phone")
     type = fields.Selection(
         selection=[
             ("public", "Public"),
@@ -105,3 +106,4 @@ class DayPlanning(models.Model):
     )
     day_planning_text_ids = fields.One2many("train_management.day_planning_text", "day_planning", string="Texts")
     circuit_ids = fields.One2many("train_management.circuit", "day_planning")
+    reservation_ids = fields.One2many("train_management.reservation", "day_planning")

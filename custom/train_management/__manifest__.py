@@ -13,6 +13,7 @@
     'data': [
         'security/ir.model.access.csv',
         'data/train_management.station.csv',
+        'data/train_management.stop_code.csv',
         'data/train_management.railway_company.csv',
         'views/circuit_views.xml',
         'views/day_planning_views.xml',
@@ -21,6 +22,8 @@
         'views/station_views.xml',
         'views/vehicle_views.xml',
         'views/train_views.xml',
+        'views/stop_code_views.xml',
+        'views/reservation_views.xml',
         'views/train_management_menu_views.xml',
     ],
 }

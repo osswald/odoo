@@ -14,16 +14,17 @@
                     <sheet>
                         <div class="oe_title">
                             <h1>
-                                <field name="name"/>
+                                <field name="name" placeholder="e.g. Extrafahrt Familie Müller"/>
                             </h1>
                         </div>
                         <group>
                             <group string="Master data">
-                                <field name="date"/>
+                                <field name="date" placeholder="e.g.09.03.2033"/>
                                 <field name="type"/>
+                                <field name="responsible_phone"/>
                             </group>
                             <group string="Planning">
-                                <field name="railway_company"/>
+                                <field name="railway_company" placeholder="e.g. SBB Historic"/>
                                 <field name="slot_ordered_st"/>
                                 <field name="slot_ordered_sbb"/>
                                 <field name="personnel_disposition"/>
@@ -34,8 +35,9 @@
                         <group>
                             <group string="Booking">
                                 <field name="customers"/>
-                                <field name="price"/>
-                                <field name="comment"/>
+                                <field name="price" placeholder="e.g. 30'000.00"/>
+                                <field name="comment"
+                                       placeholder="e.g. The customer would like to have 3 green carriages. Catering required."/>
                             </group>
                         </group>
                         <notebook>
@@ -51,9 +53,22 @@
                                 <field name="circuit_ids">
                                     <tree>
                                         <field name="name"/>
-                                        <field name="vehicles"/>
+                                        <field name="train_composition"/>
                                         <field name="distance"/>
                                         <field name="frequency"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Reservations">
+                                <field name="reservation_ids">
+                                    <tree>
+                                        <field name="train"/>
+                                        <field name="name"/>
+                                        <field name="amount"/>
+                                        <field name="type"/>
+                                        <field name="phone_number"/>
+                                        <field name="email"/>
+                                        <field name="comment" widget="text" options="{'maxlength': 50}"/>
                                     </tree>
                                 </field>
                             </page>

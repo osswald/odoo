@@ -3,6 +3,7 @@
 
 {
     'name': 'Training',
+    'author': 'Christoph Osswald',
     'depends': [
         'base',
     ],

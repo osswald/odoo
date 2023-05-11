@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, fields, api
 
 
 class Station(models.Model):
@@ -10,3 +10,8 @@ class Station(models.Model):
     didok = fields.Char("Didok")
     bpuic = fields.Char("BPUIC")
     short_name = fields.Char("Short Name")
+
+    @api.model
+    def name_search(self, name, args=None, operator='ilike', limit=100):
+        partners = self.search(['|', ('name', operator, name), ('short_name', operator, name)])
+        return partners.name_get()

@@ -3,6 +3,7 @@
 
 {
     'name': 'membership',
+    'author': 'Christoph Osswald',
     'depends': [
         'base',
     ],

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-10 06:05+0000\n"
-"PO-Revision-Date: 2023-05-10 08:15+0200\n"
+"PO-Revision-Date: 2023-05-10 09:26+0200\n"
 "Last-Translator: Christoph Osswald\n"
 "Language-Team: \n"
 "Language: de_CH\n"
@@ -126,7 +126,7 @@ msgstr "Einstellungen"
 #. module: shift
 #: model:ir.ui.menu,name:shift.shift_menu_root
 msgid "Shift"
-msgstr "Tour"
+msgstr "Tourenplanung"
 
 #. module: shift
 #: model:ir.model.fields,field_description:shift.field_shift_shift_position__shift_template

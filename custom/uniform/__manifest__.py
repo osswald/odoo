@@ -3,6 +3,7 @@
 
 {
     'name': 'Uniform',
+    'author': 'Christoph Osswald',
     'depends': [
         'base',
     ],
