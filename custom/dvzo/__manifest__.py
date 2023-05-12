@@ -14,6 +14,7 @@
         'shift',
         'train_management',
         'training',
+        'emergency_contact',
         'uniform',
         'web_window_title',
         'partner_firstname',

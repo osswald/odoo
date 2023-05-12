@@ -24,6 +24,7 @@
         'views/train_views.xml',
         'views/stop_code_views.xml',
         'views/reservation_views.xml',
+        'views/copy_recipient_views.xml',
         'views/train_management_menu_views.xml',
     ],
 }

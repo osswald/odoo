@@ -10,3 +10,4 @@ from . import train_vehicle
 from . import vehicle
 from . import timetable
 from . import stop_code
+from . import copy_recipient

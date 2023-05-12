@@ -20,6 +20,15 @@
                                 <field name="amount"/>
                                 <field name="type"/>
                                 <field name="comment"/>
+                                <field name="station_ids" invisible="True"/>
+                                <field name="start_station"
+                                       widget="radio"
+                                       domain="[('id', 'in', station_ids)]"
+                                />
+                                <field name="end_station"
+                                       widget="radio"
+                                       domain="[('id', 'in', station_ids)]"
+                                />
                             </group>
                         </group>
 
@@ -35,6 +44,10 @@
                 <tree string="Reservation">
                     <field name="day_planning"/>
                     <field name="train"/>
+                    <field name="start_station" optional="show"/>
+                    <field name="start_station_short" optional="hide"/>
+                    <field name="end_station" optional="show"/>
+                    <field name="end_station_short" optional="hide"/>
                     <field name="name"/>
                     <field name="amount"/>
                     <field name="type"/>

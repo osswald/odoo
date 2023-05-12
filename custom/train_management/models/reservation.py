@@ -21,6 +21,15 @@ class Reservation(models.Model):
         required=True,
     )
     comment = fields.Text("Comment")
+    station_ids = fields.Many2many('train_management.station', compute='_compute_station_ids',
+                                   string="asdf")
+    start_station = fields.Many2one('train_management.station', string='Start Station',
+                                    domain="[('id', 'in', station_ids)]")
+    start_station_short = fields.Char(related="start_station.short_name", string="Start")
+    end_station = fields.Many2one("train_management.station",
+                                  domain="[('id', 'in', station_ids)]")
+    end_station_short = fields.Char(related="end_station.short_name", string="End")
+
     train = fields.Many2one("train_management.train")
     day_planning = fields.Many2one("train_management.day_planning", compute="_compute_day_planning", store=True)
 
@@ -28,4 +37,8 @@ class Reservation(models.Model):
     def _compute_day_planning(self):
         for reservation in self:
             reservation.day_planning = reservation.train.circuit.day_planning
-    
+
+    @api.depends('train.timetable.station')
+    def _compute_station_ids(self):
+        for rec in self:
+            rec.station_ids = rec.train.timetable.sorted("sequence").mapped('station')

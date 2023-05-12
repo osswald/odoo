@@ -63,6 +63,8 @@
                                 <field name="reservation_ids">
                                     <tree>
                                         <field name="train"/>
+                                        <field name="start_station_short"/>
+                                        <field name="end_station_short"/>
                                         <field name="name"/>
                                         <field name="amount"/>
                                         <field name="type"/>
