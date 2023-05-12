@@ -9,5 +9,8 @@
     ],
     'installable': True,
     'application': False,
-    'license': "LGPL-3"
+    'license': "LGPL-3",
+    'data': [
+        'views/res_partner_views.xml',
+    ],
 }
