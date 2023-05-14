@@ -2,7 +2,7 @@ from odoo import models, fields
 
 
 class ShiftPositionType(models.Model):
-    _name = "shift.shift_position_type"
+    _name = "train_management.shift_position_type"
     _description = "Shift position type"
     _order = "name"
 

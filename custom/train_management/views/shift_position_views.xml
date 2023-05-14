@@ -5,7 +5,7 @@
         <!-- SHIFT POSITION VIEWS -->
         <record id="shift_position_view_form" model="ir.ui.view">
             <field name="name">shift.position.form</field>
-            <field name="model">shift.shift_position</field>
+            <field name="model">train_management.shift_position</field>
             <field name="arch" type="xml">
                 <form>
                     <sheet>
@@ -28,7 +28,7 @@
 
         <record id="shift_position_view_tree" model="ir.ui.view">
             <field name="name">shift.position.tree</field>
-            <field name="model">shift.shift_position</field>
+            <field name="model">train_management.shift_position</field>
             <field name="arch" type="xml">
                 <tree string="Shift position">
                     <field name="sequence" widget="handle"/>
@@ -44,7 +44,7 @@
 
         <record id="shift_position_action" model="ir.actions.act_window">
             <field name="name">Shift position</field>
-            <field name="res_model">shift.shift_position</field>
+            <field name="res_model">train_management.shift_position</field>
             <field name="view_mode">tree,form</field>
         </record>
 

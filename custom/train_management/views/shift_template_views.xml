@@ -5,7 +5,7 @@
         <!-- SHIFT TEMPLATE VIEWS -->
         <record id="shift_template_view_form" model="ir.ui.view">
             <field name="name">shift.template.form</field>
-            <field name="model">shift.shift_template</field>
+            <field name="model">train_management.shift_template</field>
             <field name="arch" type="xml">
                 <form>
                     <sheet>
@@ -39,7 +39,7 @@
 
         <record id="shift_template_view_tree" model="ir.ui.view">
             <field name="name">shift_template.tree</field>
-            <field name="model">shift.shift_template</field>
+            <field name="model">train_management.shift_template</field>
             <field name="arch" type="xml">
                 <tree string="Shift template">
                     <field name="name"/>
@@ -51,7 +51,7 @@
 
         <record id="shift_template_action" model="ir.actions.act_window">
             <field name="name">Shift template</field>
-            <field name="res_model">shift.shift_template</field>
+            <field name="res_model">train_management.shift_template</field>
             <field name="view_mode">tree,form</field>
         </record>
 

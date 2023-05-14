@@ -4,9 +4,9 @@
 
         <!-- SHIFT MENU VIEWS -->
         <menuitem id="shift_menu_root" name="Shift">
-            <menuitem id="shift_template_menu_action" action="shift.shift_template_action" sequence="1"/>
+            <menuitem id="shift_template_menu_action" action="train_management.shift_template_action" sequence="1"/>
             <menuitem id="settings_menu" name="Settings" sequence="10">
-                <menuitem id="shift_position_type_menu_action" action="shift.shift_position_type_action"/>
+                <menuitem id="shift_position_type_menu_action" action="train_management.shift_position_type_action"/>
             </menuitem>
         </menuitem>
 

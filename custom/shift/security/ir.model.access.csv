@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_shift_shift_position,shift.shift_position,model_shift_shift_position,base.group_user,1,1,1,1
-access_shift_shift_position_type,shift.shift_position_type,model_shift_shift_position_type,base.group_user,1,1,1,1
-access_shift_shift_template,shift.shift_template,model_shift_shift_template,base.group_user,1,1,1,1

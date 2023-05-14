@@ -2,7 +2,7 @@ from odoo import models, fields
 
 
 class ShiftTemplate(models.Model):
-    _name = "shift.shift_template"
+    _name = "train_management.shift_template"
     _description = "Shift template"
 
     name = fields.Char("Shift number", required=True)
@@ -14,4 +14,4 @@ class ShiftTemplate(models.Model):
     approximate_times = fields.Boolean()
     approximate_start_time = fields.Float()
     approximate_end_time = fields.Float()
-    shift_position_ids = fields.One2many("shift.shift_position", "shift_template", "Shift positions")
+    shift_position_ids = fields.One2many("train_management.shift_position", "shift_template", "Shift positions")
